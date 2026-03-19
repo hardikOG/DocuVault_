@@ -71,12 +71,12 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950">
+    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950 overflow-x-hidden relative flex flex-col w-full">
       <Navbar showAuthButtons />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="pt-36 sm:pt-40 pb-20 px-4 sm:px-6 lg:px-8 w-full flex-shrink-0">
+        <div className="max-w-7xl mx-auto text-center w-full">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -133,8 +133,8 @@ export default function LandingPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900 relative z-10 w-full">
+        <div className="max-w-7xl mx-auto w-full">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -177,7 +177,7 @@ export default function LandingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -209,8 +209,8 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-200 dark:border-gray-800">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-200 dark:border-gray-800 relative z-10 w-full mt-auto">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 w-full">
           <div className="flex items-center gap-2">
             <Shield className="h-6 w-6 text-emerald-500" />
             <span className="font-semibold text-gray-900 dark:text-white">DocuVault</span>
