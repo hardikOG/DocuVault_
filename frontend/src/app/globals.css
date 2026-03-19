@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-/* Configure Tailwind v4 to scan all source directories correctly */
-@source "../components";
-@source "../app";
-@source "../lib";
-
 /* ======================================
    DocuVault - Global Styles
    Fintech-Grade Design System
