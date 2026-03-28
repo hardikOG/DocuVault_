@@ -53,8 +53,3 @@ Visual proof of the UI and user experience improvements.
 | ![Cards Close-up](docs/screenshots/after-cards-closeup.png) | ![Mobile View](docs/screenshots/after-mobile-view.png) |
 
 > **Note:** Screenshots should be placed in the `docs/screenshots/` directory.
-
-## 🌍 Live Demo
-
-- **Frontend Application:** [Deploying to Vercel...](https://vercel.com)
-- **Backend API:** [Deploying to Railway...](https://railway.app)
